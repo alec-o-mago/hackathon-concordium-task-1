@@ -2,13 +2,20 @@
 
 ## Installing Rust and Cargo
 
-I downloaded Rustup from https://win.rustup.rs/x86_64, ran the installer, and got the following result: 
+I downloaded Rustup from https://win.rustup.rs/x86_64, ran the installer, and got the following result:
+
 ![01](/images/01.png)
+
 ![02](/images/02.png)
-Them I copy-pasted the commands in a terminal to install Wasm which will be used for building contracts.
+
+Then I copy-pasted this command in the terminal to install Wasm:
+
 ```
 rustup target add wasm32-unknown-unknown
 ```
+
+
+
 ## Installing Concordium Client
 
 
