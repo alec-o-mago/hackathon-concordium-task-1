@@ -1,12 +1,26 @@
 # Concordium Hackathon - Task 1
 
-## Installing Rust
+## Installing Rust and Cargo
 
-I downloaded Rustup from https://win.rustup.rs/x86_64
-I executed it but got an error saying I had to install "Microsoft Visual Studio C++ Build Tools" first.
- ![01](/images/01.png)
-I followed the link given on the error message (https://visualstudio.microsoft.com/visual-cpp-build-tools/) to install it.
+I downloaded Rustup from https://win.rustup.rs/x86_64, ran the installer, and got the following result: 
+![01](/images/01.png)
+![02](/images/02.png)
+Them I copy-pasted the commands in a terminal to install Wasm which will be used for building contracts.
+```
+rustup target add wasm32-unknown-unknown
+```
+## Installing Concordium Client
 
 
+
+## Checking the instalation and running testnet code
+
+
+
+## Setting up a wallet
+
+
+
+## Importing the key
 
 
