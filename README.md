@@ -2,7 +2,7 @@
 
 ## Installing Rust and Cargo
 
-I downloaded Rustup from https://win.rustup.rs/x86_64, ran the installer, and got the following result:
+I downloaded Rustup from https://win.rustup.rs/x86_64 and ran the installer:
 
 ![01](/images/01.png)
 
@@ -19,11 +19,18 @@ rustup target add wasm32-unknown-unknown
 Then I Installed Cargo-Concordium from https://distribution.concordium.software/tools/windows/signed/cargo-concordium_2.7.0.exe, renamed it to "cargo-concordium.exe", and moved it to my ".cargo\bin" folder.
 Giving an individual file permission to run does not apply to Windows.
 
+Then I verified the instalation with:
+
+```
+cargo concordium --help
+```
+
+![04](/images/04.png)
 
 
 ## Installing Concordium Client
 
-
+I downloaded Concordium Client from https://distribution.concordium.software/tools/windows/signed/concordium-client_5.0.2-0.exe and
 
 ## Checking the instalation and running testnet code
 
