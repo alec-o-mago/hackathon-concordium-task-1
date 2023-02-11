@@ -30,14 +30,29 @@ cargo concordium --help
 
 ## Installing Concordium Client
 
-I downloaded Concordium Client from https://distribution.concordium.software/tools/windows/signed/concordium-client_5.0.2-0.exe and
+I downloaded Concordium Client from https://distribution.concordium.software/tools/windows/signed/concordium-client_5.0.2-0.exe, renamed to "concordium-client.exe" moved it to a folder on one of my %PATH% folders.
 
-## Checking the instalation and running testnet code
+Then I verified the instalation with:
 
+```
+concordium-client --help
+```
 
+![05](/images/05.png)
+
+## Running testnet code
+
+I connected to the public node with the following command:
+
+```
+concordium-client consensus status --grpc-port 10000 --grpc-ip node.testnet.concordium.com
+```
+
+![06](/images/06.png)
 
 ## Setting up a wallet
 
+I installed the Concordium Wallet on Brave Browser from the Chrome Web Store
 
 
 ## Importing the key
