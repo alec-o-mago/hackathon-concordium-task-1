@@ -3,7 +3,9 @@
 ## Introduction
 
 This is my submission for the Concordium Hackathon - Task 1. (https://gitcoin.co/issue/29741)
+
 My mainnet Concordium Account for the bounty is: 4UEEKEu8DT4kGSxbrXJ9V4xH1e34iAFJThSjbjwA26BSkrv7Ta
+
 (If required, my Ethereum mainnet address is: 0x8a701e1247621e2D21481091e54a780819BC5c70)
 
 ## Installing Rust and Cargo
@@ -80,4 +82,5 @@ concordium-client config account import 38MV7JWsxafJZFCApcMbwebPYK8cDyFBqaWHtzvA
 ## Other Information
 
 My mainnet Concordium Account for the bounty is: 4UEEKEu8DT4kGSxbrXJ9V4xH1e34iAFJThSjbjwA26BSkrv7Ta
+
 (If required, my Ethereum mainnet address is: 0x8a701e1247621e2D21481091e54a780819BC5c70)
